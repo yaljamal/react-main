@@ -1,0 +1,23 @@
+@import 'theme/palette.scss';
+@import 'theme/fonts.scss';
+
+html,
+body {
+    color: $stylish-black;
+}
+
+[dir] {
+    font-family: $fontFamily;
+
+    body {
+        font-family: $fontFamily;
+    }
+}
+
+[dir='rtl'] {
+    font-family: $rtlFontFamily;
+
+    body {
+        font-family: $rtlFontFamily;
+    }
+}
